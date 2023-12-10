@@ -25,13 +25,13 @@
 
     <script>
         function estrangeiros() {
-            var p = window.document.getElementById('pais').value;
-            p = p.toUpperCase();
-            var res = window.document.querySelector('div#res')
-            if(p === 'BRASIL') {
-                res.innerHTML = '<p>Você é <strong>Brasileiro</strong>!</p>'
+            var p=window.document.getElementById('pais').value;
+            p=p.toUpperCase();
+            var res=window.document.querySelector('div#res')
+            if(p==='BRASIL') {
+                res.innerHTML='<p>Você é <strong>Brasileiro</strong>!</p>'
             } else {
-                res.innerHTML = '<p>Você é <strong>Estrangeiro</strong>!</p>'
+                res.innerHTML='<p>Você é <strong>Estrangeiro</strong>!</p>'
             }
         }
     </script>
